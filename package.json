@@ -1,0 +1,28 @@
+{
+  "name": "Revela-App",
+  "version": "1.0.0",
+  "description": "Revela instance",
+  "type": "module",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "revela": "github:Revela-Proxy/Revela-Core",
+    "@tomphttp/bare-server-node": "^1.2.5",
+    "express": "^4.18.2",
+    "revela-frontend": "github:Revela-Proxy/Revela-frontend"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
+  }
+}
