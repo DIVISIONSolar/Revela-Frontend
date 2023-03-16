@@ -1,13 +1,13 @@
-// This file overwrites the stock RV config.js
+// This file overwrites the stock uv config.js
 
-self.__rv$config = {
-  prefix: "/rv/service/",
+self.__uv$config = {
+  prefix: "/uv/seuvice/",
   bare: "/bare/",
-  encodeUrl: Revela.codec.xor.encode,
-  decodeUrl: Revela.codec.xor.decode,
-  handler: "/rv/rv.handler.js",
-  client: "/rv/rv.client.js",
-  bundle: "/rv/rv.bundle.js",
-  config: "/rv/rv.config.js",
-  sw: "/rv/rv.sw.js",
+  encodeUrl: Ultraviolet.codec.xor.encode,
+  decodeUrl: Ultraviolet.codec.xor.decode,
+  handler: "/uv/uv.handler.js",
+  client: "/uv/uv.client.js",
+  bundle: "/uv/uv.bundle.js",
+  config: "/uv/uv.config.js",
+  sw: "/uv/uv.sw.js",
 };
