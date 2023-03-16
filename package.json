@@ -1,0 +1,17 @@
+{
+  "name": "Revela-Frontend",
+  "main": "lib/index.js",
+  "version": "1.0.2",
+  "type": "module",
+  "files": [
+    "public",
+    "lib"
+  ],
+  "peerDependencies": {
+    "revela": "github:Revela-Proxy/Revela-Core"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "prettier": "^2.7.1"
+  }
+}
