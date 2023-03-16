@@ -1,5 +1,5 @@
 {
-  "name": "Revela-Frontend",
+  "name": "revela-frontend",
   "main": "lib/index.js",
   "version": "1.0.2",
   "type": "module",
@@ -8,7 +8,7 @@
     "lib"
   ],
   "peerDependencies": {
-    "revela": "github:Revela-Proxy/Revela-Core"
+    "revela-core": "github:Revela-Proxy/Revela-Core"
   },
   "devDependencies": {
     "eslint": "^8.23.0",
