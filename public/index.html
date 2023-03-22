@@ -1,61 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <title>Revela | Sophisticated Web Proxy</title>
-    <meta
-      name="description"
-      content="Revela is a highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers. Unblock sites today!"
-    />
-    <meta
-      name="keywords"
-      content="proxy, web proxy, ultraviolet, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked"
-    />
-    <meta
-      name="theme-color"
-      media="(prefers-color-scheme: dark)"
-      content="#434c5e"
-    />
-    <meta name="googlebot" content="index, follow, snippet" />
-    <link rel="shortcut icon" content="favicon.ico" />
-    <link rel="stylesheet" href="index.css" />
-    <script src="uv/uv.bundle.js" defer></script>
-    <script src="uv/uv.config.js" defer></script>
-    <script src="register-sw.js" defer></script>
-    <script src="search.js" defer></script>
-    <script src="index.js" defer></script>
-  </head>
+<html lang="en">
 
-  <body>
-    <div
-      title="Revela Logo"
-      class="flex-center logo-wrapper header-center"
-    >
-      <img class="logo" src="https://cdn.joshsevero.dev/Static/Media/NvlL09.png" alt="Revela" />
-      <h1>Revela</h1>
-    </div>
-    <div class="flex-center desc">
-      <p>
-        Revela is highly sophisticated proxy used for evading internet
-        censorship.
-      </p>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revela | Sophisticated Web Proxy</title>
+  <link rel="stylesheet" href="index.css" />
+  <script src="uv/uv.bundle.js" defer></script>
+  <script src="uv/uv.config.js" defer></script>
+  <script src="register-sw.js" defer></script>
+  <script src="search.js" defer></script>
+  <script src="index.js" defer></script>
+</head>
 
-    <form id="rv-form" class="flex-center">
-      <input
-        id="rv-search-engine"
-        value="https://www.google.com/search?q=%s"
-        type="hidden"
-      />
-      <input id="rv-address" type="text" placeholder="Search the web freely" />
-    </form>
-    <div class="desc left-margin">
-      <p id="rv-error"></p>
-      <pre id="rv-error-code"></pre>
-    </div>
-  </body>
+<body>
+<div class="flex-center logo-wrapper header-center">
+  <img src="https://cdn.joshsevero.dev/Static/Media/NvlL09.png" alt="" class="logo">
+  <h2>
+    A sophisticated web proxy that allows you to browse the web anonymously.
+  </h2>
+  <h2>
+    Supports Netflix, Now.gg and more.
+  </h2>
+</div>
+<form id="rv-form" class="flex-center">
+  <input 
+  id="rv-search-engine"
+  value="https://www.google.com/search?q=%s"
+  type="hidden"
+  />
+  <input 
+  id="rv-address" 
+  type="text" 
+  placeholder="Search the web without being censored."
+  />
+</form>
+<div class="desc left-margin">
+  <p id="rv-error">
+    <pre id="rv-error-code"></pre>
+  </p>
+</div>
+
+</body>
+
 </html>

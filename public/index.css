@@ -69,34 +69,8 @@ body {
   color: #fff;
 }
 
-.logo-wrapper h1 {
+.logo-wrapper h2 {
   color: white;
-}
-
-footer {
-  margin-top: auto;
-  width: 93%;
-  align-self: center;
-  height: 80px;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
-footer a,
-footer span {
-  margin: 0 15px;
-  text-decoration: none;
-  color: #fff;
-  font-size: 15px;
-}
-
-footer a {
-  cursor: pointer;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 .desc p {
@@ -125,43 +99,7 @@ footer a:hover {
   border-radius: 6px;
 }
 
-.credit {
-  border-radius: 10px;
-  padding: 10px;
-  display: block;
-  border: #fff 1px solid;
-  color: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 15px;
-}
-
-.credit label {
-  margin-left: auto;
-  margin-right: 15px;
-}
-
-.credit a,
-.credit label {
-  color: white;
-  text-decoration: underline;
-  text-align: right;
-}
-
-.credit pre {
-  display: none;
-  width: 100%;
-}
-
-.credit label::after {
-  content: "show license";
-  cursor: pointer;
-}
-
-.credit input:checked + label::after {
-  content: "hide license";
-}
-
-.credit input:checked ~ pre {
-  display: block;
+.logo-custom {
+  width: 250px;
+  height: 150px;
 }
