@@ -15,32 +15,28 @@
 </head>
 
 <body>
-<div class="flex-center logo-wrapper header-center">
-  <img src="https://cdn.joshsevero.dev/Static/Media/NvlL09.png" alt="" class="logo">
-  <h2>
-    A sophisticated web proxy that allows you to browse the web anonymously.
-  </h2>
-  <h2>
-    Supports Netflix, Now.gg and more.
-  </h2>
-</div>
-<form id="rv-form" class="flex-center">
-  <input 
-  id="rv-search-engine"
-  value="https://www.google.com/search?q=%s"
-  type="hidden"
-  />
-  <input 
-  id="rv-address" 
-  type="text" 
-  placeholder="Search the web without being censored."
-  />
-</form>
-<div class="desc left-margin">
-  <p id="rv-error">
+  <div class="flex-center logo-wrapper header-center">
+    <img src="https://cdn.joshsevero.dev/Static/Media/NvlL09.png" alt="" class="logo">
+    <h2>
+      A sophisticated web proxy that allows you to browse the web anonymously.
+    </h2>
+    <h2>
+      Supports Netflix, Youtube, TikTok and more.
+    </h2>
+  </div>
+  <form id="rv-form" class="flex-center">
+    <input id="rv-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
+    <input id="rv-address" type="text" placeholder="Search the web without being censored." />
+  </form>
+  <footer>
+    <a title="Node ID" href="">Node ID: ${NODE_ID}</a>
+    <a title="System Stats" href="https://status.revela-network.com">System Status</a>
+  </footer>
+  <div class="desc left-margin">
+    <p id="rv-error">
     <pre id="rv-error-code"></pre>
-  </p>
-</div>
+    </p>
+  </div>
 
 </body>
 
