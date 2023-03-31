@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap");
+@import url("https://fonts.bunny.net/css?family=abril-fatface:400|rubik:600,800i,900i");
 
 body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-family: Abril-Fatface, Rubik;
   margin: 0;
   background: #111;
   display: flex;
@@ -127,5 +127,26 @@ footer a {
 }
 
 footer a:hover {
+  text-decoration: underline;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+
+}
+
+a:link, a:visited {
+  text-decoration: none; 
+}
+a:hover, a:active {
   text-decoration: underline;
 }
