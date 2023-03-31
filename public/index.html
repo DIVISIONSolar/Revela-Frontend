@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Revela | Sophisticated Web Proxy</title>
   <link rel="stylesheet" href="index.css" />
   <script src="uv/uv.bundle.js" defer></script>
   <script src="uv/uv.config.js" defer></script>
   <script src="register-sw.js" defer></script>
   <script src="search.js" defer></script>
   <script src="index.js" defer></script>
+  <title>Revela | Sophisticated Web Proxy</title>
 </head>
-
 <body>
   <div class="flex-center logo-wrapper header-center">
     <img src="https://cdn.joshsevero.dev/Static/Media/NvlL09.png" alt="" class="logo">
     <h2>
-      A sophisticated web proxy that allows you to browse the web anonymously.
+      A Sophisticated Web Proxy that allowed you to browse the web anonymously and securely.
     </h2>
     <h2>
-      Supports Netflix, Youtube, TikTok and more.
+      Supports all of your favorites! <a href="weblist.html">Click here to view them.</a>
     </h2>
   </div>
-  <form id="rv-form" class="flex-center">
-    <input id="rv-search-engine" value="https://www.google.com/search?q=%s" type="hidden" />
-    <input id="rv-address" type="text" placeholder="Search the web without being censored." />
+  <form class="flex-center" id="rv-form">
+    <input type="hidden" value="https://www.google.com/search?q=%s" id="rv-search-engine" />
+    <input type="text" id="rv-address" placeholder="Search the web without being censored." />
   </form>
   <footer>
-    <a title="Node ID" href="">Node ID: ${NODE_ID}</a>
-    <a title="System Stats" href="https://status.revela-network.com">System Status</a>
+    <a title="Node ID">Node ID: ${NODE_ID}</a>
+    <a title="System Stats" href="https://status.revela-network.com">System Stats</a>
   </footer>
   <div class="desc left-margin">
     <p id="rv-error">
-    <pre id="rv-error-code"></pre>
+      <pre id="rv-error-code"></pre>
     </p>
   </div>
-
 </body>
-
 </html>

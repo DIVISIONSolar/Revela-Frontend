@@ -1,0 +1,13 @@
+@import url("https://fonts.bunny.net/css?family=abril-fatface:400|rubik:600,800i,900i");
+
+body {
+    font-family: Abril-Fatface, Rubik;
+}
+
+td {
+    padding: 10px;
+}
+
+a:visited {
+    color: blue;
+  }
