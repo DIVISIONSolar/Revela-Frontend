@@ -21,7 +21,7 @@ body {
 .header-center {
   align-items: center;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .left-margin {
@@ -149,4 +149,24 @@ a:link, a:visited {
 }
 a:hover, a:active {
   text-decoration: underline;
+}
+
+.cloak_button {
+  background: none;
+  font-family: inherit;
+  padding: 0px 17px;
+  height: 48px;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  color: var(--text-color);
+  border-radius: 3px;
+  outline: none;
+  width: 350px;
+  margin-top: 5px;
+  border-radius: 50px;
+  color: #fff;
+  transition: border-radius 0.1s;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
