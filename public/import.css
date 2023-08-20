@@ -47,6 +47,21 @@ body {
   text-align: center;
 }
 
+/* Styles for Ad Banner */
+.ad-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px; /* Adjusted margin-top */
+  /* margin-bottom: -200px; */
+}
+
+.ad-banner img {
+  width: 512px;
+  height: 64px;
+  border-radius: 10px; /* Rounded corners */
+}
+
 /* Styles for the footers */
 .footer {
   display: flex;

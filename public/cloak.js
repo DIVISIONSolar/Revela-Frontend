@@ -13,5 +13,5 @@ function cloak() {
     newWindow.document.body.style.overflow = 'hidden';
     newWindow.document.body.appendChild(iframe);
     iframe.src = window.location.href;
-    window.location.replace('https://revela.network')
+    window.location.replace('https://classroom.google.com/')
 }
