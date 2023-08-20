@@ -1,5 +1,5 @@
 // Specify the URL of the PHP file
-const phpFileUrl = './gethost.php'; // Replace with the actual file path
+const phpFileUrl = './gethost.php';
 
 // Fetch the content of the PHP file
 fetch(phpFileUrl)
