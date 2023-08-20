@@ -1,15 +1,4 @@
-@import url("https://fonts.bunny.net/css?family=abril-fatface:400|rubik:600,800i,900i");
-
-body {
-  font-family: Abril-Fatface, Rubik;
-  margin: 0;
-  background: #111;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.fa-magnifying-glass {
+/* .fa-magnifying-glass {
   color: white;
 }
 
@@ -26,7 +15,7 @@ body {
 
 .left-margin {
   margin: 0px 16px;
-}
+} */
 
 #rv-error {
   color: #ff6666 !important;
@@ -59,7 +48,7 @@ body {
   display: block;
 }
 
-.logo {
+/* .logo {
   width: 550px;
   height: 250px;
 }
@@ -76,35 +65,37 @@ body {
 .desc p {
   width: 560px;
   color: rgba(253, 253, 253, 0.514);
-}
+} */
 
-#rv-address {
+.search-bar input[type="text"] {
   background: none;
   font-family: inherit;
   padding: 0px 17px;
   height: 48px;
-  border: 1px solid rgb(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: var(--text-color);
   border-radius: 3px;
   outline: none;
   width: 350px;
-  margin-top: 5px;
+  margin-top: 50px;
   border-radius: 50px;
   color: #fff;
   transition: border-radius 0.1s;
 }
 
-#rv-address:focus {
+.search-bar input[type="text"]:focus {
   border: 1px solid rgba(253, 253, 253, 0.514);
   border-radius: 6px;
 }
 
-.logo-custom {
+
+/* .logo-custom {
   width: 250px;
   height: 150px;
-}
+} */
 
-footer {
+.footer {
+  background: #111;
   margin-top: auto;
   width: 93%;
   align-self: center;
@@ -114,7 +105,7 @@ footer {
   align-items: center;
 }
 
-footer a,
+/*footer a,
 footer span {
   margin: 0 15px;
   text-decoration: none;
@@ -149,18 +140,18 @@ a:link, a:visited {
 }
 a:hover, a:active {
   text-decoration: underline;
-}
+} */
 
-.cloak_button {
+.cloaker {
   background: none;
   font-family: inherit;
   padding: 0px 17px;
-  height: 48px;
+  height: 32px;
   border: 1px solid rgb(255, 255, 255, 0.2);
   color: var(--text-color);
   border-radius: 3px;
   outline: none;
-  width: 350px;
+  width: 150px;
   margin-top: 5px;
   border-radius: 50px;
   color: #fff;
@@ -169,4 +160,99 @@ a:hover, a:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  display: inline-block; 
+  position: relative;
+}
+
+.cloaker::before {
+  content: "";
+  position: absolute;
+  top: -5px; 
+  right: -5px; 
+  bottom: -5px;
+  left: -5px; 
+}
+
+.games {
+  background: none;
+  font-family: inherit;
+  padding: 0px 17px;
+  height: 32px;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  color: var(--text-color);
+  border-radius: 3px;
+  outline: none;
+  width: 150px;
+  margin-top: 5px;
+  border-radius: 50px;
+  color: #fff;
+  transition: border-radius 0.1s;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.games::before {
+  content: "";
+  position: absolute;
+  top: -5px; 
+  right: -5px; 
+  bottom: -5px;
+  left: -5px; 
+}
+
+.node {
+  background: none;
+  font-family: inherit;
+  padding: 0px 17px;
+  height: 32px;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  color: var(--text-color);
+  border-radius: 3px;
+  outline: none;
+  width: 150px;
+  margin-top: 5px;
+  border-radius: 50px;
+  color: #fff;
+  transition: border-radius 0.1s;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.node::before {
+  content: "";
+  position: absolute;
+  top: -5px; 
+  right: -5px; 
+  bottom: -5px;
+  left: -5px; 
+}
+
+
+.stats {
+  background: none;
+  font-family: inherit;
+  padding: 0px 17px;
+  height: 32px;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  color: var(--text-color);
+  border-radius: 3px;
+  outline: none;
+  width: 150px;
+  margin-top: 5px;
+  border-radius: 50px;
+  color: #fff;
+  transition: border-radius 0.1s;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
