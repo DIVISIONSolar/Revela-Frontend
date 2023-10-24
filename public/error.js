@@ -13,7 +13,7 @@ registerButton.addEventListener("click", async () => {
     await registerSW();
     location.reload();
   } catch (err) {
-    error.textContent = "Failed to register seuvice worker.";
+    error.textContent = "Failed to register seuvice worker. Try refreshing?";
     errorCode.textContent = err.toString();
     registerButton.classList.remove("show");
   }

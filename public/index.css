@@ -177,3 +177,25 @@
   align-items: center;
   margin-bottom: 20px;
 }
+
+.credits {
+  background: none;
+  font-family: inherit;
+  padding: 0px 17px;
+  height: 32px;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  color: var(--text-color);
+  border-radius: 3px;
+  outline: none;
+  width: 150px;
+  margin-top: 5px;
+  border-radius: 50px;
+  color: #fff;
+  transition: border-radius 0.1s;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px; /* Add margin to the right side */
+  margin-bottom: 20px; /* Add margin to the bottom */
+}
